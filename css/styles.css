@@ -115,6 +115,7 @@ h2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
+    margin-bottom: 80px;
 }
 
 h3{
@@ -129,11 +130,29 @@ article p{
 
 
 /*FOOTER*/
+footer{
+    background-color: black;
+}
+h4{
+    color: white;
+}
 
 footer a{
     display: inline-block;
     width: 32px;
     height: 32px;
+}
+
+footer ul{
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
