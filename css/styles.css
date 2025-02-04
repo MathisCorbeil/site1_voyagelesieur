@@ -184,3 +184,7 @@ footer .wrapper{
     background-image: url("../images/pinterest-survol.jpg");
 }
 
+.conteneur-transport-invisible{
+
+    display:none;
+}
